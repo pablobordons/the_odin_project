@@ -2,10 +2,8 @@
 
 	Version 00 
 	Starting date 23/08/15
-	author Pablo Bordons Estrada
-
-		notes: 
-
+	Author Pablo Bordons Estrada
+ 
 -->
 
 <!DOCTYPE html>
@@ -20,17 +18,37 @@
 	<body>
 		
 		<div id="header">
-			
+			<p id="title">RGB TRIBUTE SKETCH TOY</p>
 		</div>
+
 		<div id="container">
-			<div id="tool_box">
+
+			<div class="toolbox" id="color_tools">
+				
 				<ul>
-					<li></li>
-					<li></li>
-					<li></li>
+					<p id="color_text">COLOR</p>
+					<li id="red" class="clicked button"></li>
+					<li id="green" class="clicked button"></li>
+					<li id="blue" class="unclicked button"></li>
+					<li id="random" class="unclicked button"></li>
+				</ul>
+
+				
+			</div>
+			<div id="canvas_space">
+				<div id="canvas"></div>
+			</div>
+			<div class="toolbox" id="size_tools">
+				
+				<ul>
+					<p id="size_text">SIZE</p>
+					<li id="one" data="4" class="unclicked button"></li>
+					<li id="two" data="10" class="clicked button"></li>
+					<li id="three" data="40" class="unclicked button"></li>
+					<li id="four" data="80" class="unclicked button"></li>
 				</ul>
 			</div>
-			<div id="canvas"></div>
+
 		</div>
 		<div id="footer">
 			
@@ -38,8 +56,10 @@
 
 
 		<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="js/jquery.animate-colors-min.js"></script>
 		<script type="text/javascript" src="js/script.js"></script>
-		
+
+		<link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
 	</body>
 
 </html>
