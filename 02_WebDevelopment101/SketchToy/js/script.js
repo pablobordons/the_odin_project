@@ -72,7 +72,7 @@ $(document).ready(function(){
 	// Color buttons
 	// Global var to control the color
 	var color = "rgb(255,255,0)" 
-	var red = 0, green = 0, blue = 0;
+	var red = 255, green = 255, blue = 0;
 
     $("#color_tools >> li").click(function() {
     	/* click BEHAVIOUR
