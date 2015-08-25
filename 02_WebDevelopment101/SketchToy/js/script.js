@@ -66,7 +66,7 @@ $(document).ready(function(){
 		}
 
 
-	createCanvas(40);
+	createCanvas(10);
 	// Controlling the buttons (color and size buttons behave differently)
 
 	// Color buttons
